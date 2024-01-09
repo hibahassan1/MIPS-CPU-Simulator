@@ -30,19 +30,31 @@ The implementation here is MIPS-32 using Single-Cycle Datapaths
 
 # Example code executions
 First, enter the initial PC value, then execute either of the following examples or your own instructions containing only the instructions implemented.
+
 Example 1:
 addi $t0, $zero, 30
+
 sw $t0, 30 ($t0)
+
 lw $t1, 30($t0)
 
+
 Example 2:
+
 addi $t1, $zero, 0
+
 addi $t2, $zero, 5
+
 slt $t3, $t1, $t2
+
 beq $t3, $zero, 7
+
 addi $t1, $t1, 1
+
 j 3
+
 addi $s0, $zero, 0
+
 
 Enter halt to end the line of instructions
 
