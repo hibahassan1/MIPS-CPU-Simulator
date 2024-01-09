@@ -1,4 +1,4 @@
-# Project Understandin
+# Project Understanding
 The implementation here is MIPS-32 using Single-Cycle Datapaths
 
 # Instructions implemented
