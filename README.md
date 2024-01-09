@@ -1,4 +1,4 @@
-# Project Understanding
+# Project Understandin
 The implementation here is MIPS-32 using Single-Cycle Datapaths
 
 # Instructions implemented
@@ -31,7 +31,7 @@ The implementation here is MIPS-32 using Single-Cycle Datapaths
 # Example code executions
 First, enter the initial PC value, then execute either of the following examples or your own instructions containing only the instructions implemented.
 
-Example 1:
+## Example 1:
 
 addi $t0, $zero, 30
 
@@ -40,7 +40,7 @@ sw $t0, 30 ($t0)
 lw $t1, 30($t0)
 
 
-Example 2:
+## Example 2:
 
 addi $t1, $zero, 0
 
